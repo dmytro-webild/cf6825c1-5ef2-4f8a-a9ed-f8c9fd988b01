@@ -239,7 +239,7 @@ export default function LandingPage() {
           tag="Get Started"
           title="Ready to Transform Your File Management?"
           description="Join thousands of professionals who've already upgraded to FileExplorer Pro. Download free today—no credit card required."
-          background={{ variant: "aurora" }}
+          background={{ variant: "plain" }}
           useInvertedBackground={false}
           inputPlaceholder="Enter your email address"
           buttonText="Download Free Trial"
