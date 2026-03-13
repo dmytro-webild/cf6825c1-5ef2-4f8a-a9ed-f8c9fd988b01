@@ -20,7 +20,7 @@ export default function LandingPage() {
       borderRadius="rounded"
       contentWidth="smallMedium"
       sizing="large"
-      background="aurora"
+      background="circleGradient"
       cardStyle="inset"
       primaryButtonStyle="radial-glow"
       secondaryButtonStyle="glass"
@@ -44,7 +44,7 @@ export default function LandingPage() {
         <HeroSplitDualMedia
           title="Master Your Files with FileExplorer Pro"
           description="Experience the next generation of Windows file management. Lightning-fast navigation, intelligent organization, and powerful search capabilities—all designed for maximum productivity."
-          background={{ variant: "aurora" }}
+          background={{ variant: "plain" }}
           tag="Next-Gen File Management"
           tagIcon={Zap}
           tagAnimation="slide-up"
@@ -84,30 +84,30 @@ export default function LandingPage() {
               id: 1,
               title: "Lightning-Fast Navigation",              description: "Access files instantly with our optimized search engine. Find any file in milliseconds, not seconds.",              buttons: [{ text: "Learn More", href: "#" }],
               phoneOne: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AuSrhMzNUvBUMZl5vGVd6xtx0Y/an-app-interface-showing-lightning-fast--1773441324967-9834afe1.png?_wi=1",                imageAlt: "Speed optimization interface"
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AuSrhMzNUvBUMZl5vGVd6xtx0Y/an-app-interface-showing-lightning-fast--1773441324967-9834afe1.png",                imageAlt: "Speed optimization interface"
               },
               phoneTwo: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AuSrhMzNUvBUMZl5vGVd6xtx0Y/an-organized-file-system-interface-showi-1773441325556-fa00e855.png?_wi=1",                imageAlt: "File organization system"
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AuSrhMzNUvBUMZl5vGVd6xtx0Y/an-organized-file-system-interface-showi-1773441325556-fa00e855.png",                imageAlt: "File organization system"
               }
             },
             {
               id: 2,
               title: "Smart Organization",              description: "Auto-categorize files by type, size, and date. Create custom tags and color-coded folders for perfect organization.",              buttons: [{ text: "Explore Features", href: "#" }],
               phoneOne: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AuSrhMzNUvBUMZl5vGVd6xtx0Y/an-organized-file-system-interface-showi-1773441325556-fa00e855.png?_wi=2",                imageAlt: "Smart organization features"
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AuSrhMzNUvBUMZl5vGVd6xtx0Y/an-organized-file-system-interface-showi-1773441325556-fa00e855.png",                imageAlt: "Smart organization features"
               },
               phoneTwo: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AuSrhMzNUvBUMZl5vGVd6xtx0Y/an-app-interface-showing-lightning-fast--1773441324967-9834afe1.png?_wi=2",                imageAlt: "Quick access interface"
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AuSrhMzNUvBUMZl5vGVd6xtx0Y/an-app-interface-showing-lightning-fast--1773441324967-9834afe1.png",                imageAlt: "Quick access interface"
               }
             },
             {
               id: 3,
               title: "Advanced Security",              description: "Protect your files with encryption, secure deletion, and access controls. Your data stays safe and private.",              buttons: [{ text: "View Security", href: "#" }],
               phoneOne: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AuSrhMzNUvBUMZl5vGVd6xtx0Y/an-app-interface-showing-lightning-fast--1773441324967-9834afe1.png?_wi=3",                imageAlt: "Security features interface"
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AuSrhMzNUvBUMZl5vGVd6xtx0Y/an-app-interface-showing-lightning-fast--1773441324967-9834afe1.png",                imageAlt: "Security features interface"
               },
               phoneTwo: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AuSrhMzNUvBUMZl5vGVd6xtx0Y/an-organized-file-system-interface-showi-1773441325556-fa00e855.png?_wi=3",                imageAlt: "Protection controls"
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AuSrhMzNUvBUMZl5vGVd6xtx0Y/an-organized-file-system-interface-showi-1773441325556-fa00e855.png",                imageAlt: "Protection controls"
               }
             }
           ]}
@@ -129,13 +129,13 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           products={[
             {
-              id: "basic",              name: "Basic Edition",              price: "Free",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AuSrhMzNUvBUMZl5vGVd6xtx0Y/a-comprehensive-view-of-the-fileexplorer-1773441325802-6e3be2bc.png?_wi=1",              imageAlt: "FileExplorer Pro Basic"
+              id: "basic",              name: "Basic Edition",              price: "Free",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AuSrhMzNUvBUMZl5vGVd6xtx0Y/a-comprehensive-view-of-the-fileexplorer-1773441325802-6e3be2bc.png",              imageAlt: "FileExplorer Pro Basic"
             },
             {
-              id: "pro",              name: "Pro Edition",              price: "$29",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AuSrhMzNUvBUMZl5vGVd6xtx0Y/a-comprehensive-view-of-the-fileexplorer-1773441325802-6e3be2bc.png?_wi=2",              imageAlt: "FileExplorer Pro Professional"
+              id: "pro",              name: "Pro Edition",              price: "$29",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AuSrhMzNUvBUMZl5vGVd6xtx0Y/a-comprehensive-view-of-the-fileexplorer-1773441325802-6e3be2bc.png",              imageAlt: "FileExplorer Pro Professional"
             },
             {
-              id: "enterprise",              name: "Enterprise Edition",              price: "Custom",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AuSrhMzNUvBUMZl5vGVd6xtx0Y/a-comprehensive-view-of-the-fileexplorer-1773441325802-6e3be2bc.png?_wi=3",              imageAlt: "FileExplorer Pro Enterprise"
+              id: "enterprise",              name: "Enterprise Edition",              price: "Custom",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AuSrhMzNUvBUMZl5vGVd6xtx0Y/a-comprehensive-view-of-the-fileexplorer-1773441325802-6e3be2bc.png",              imageAlt: "FileExplorer Pro Enterprise"
             }
           ]}
           gridVariant="three-columns-all-equal-width"
